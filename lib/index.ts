@@ -1,2 +1,6 @@
-import {hello} from "./hello";
-hello();
+fonction init(
+  let canvas = document.querySelector("canvas");
+console.log(canvas)
+)
+
+window.addEventListener("load", init);
